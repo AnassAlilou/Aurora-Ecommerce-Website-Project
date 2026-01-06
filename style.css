@@ -319,7 +319,7 @@ a {
 }
 
 #ba .container {
-  background: url(./Aurora-Ecommerce-ٍStarter/banner/b2.jpg);
+  background: url(./img/banner/b2.jpg);
   background-position: center;
   background-size: cover;
   height: 40vh;
@@ -354,7 +354,7 @@ a {
   color: whitesmoke;
 }
 .banner-box {
-  background: url(./Aurora-Ecommerce-ٍStarter/img1.jpg) center/cover;
+  background: url(./img/img1.jpg) center/cover;
   width: 80vw;
   height: 70vh;
   display: flex;
@@ -393,7 +393,7 @@ a {
   font-size: 2.6em;
 }
 #sm-banner .banner-box:nth-child(2) {
-  background: url(./Aurora-Ecommerce-ٍStarter/banner/b10.jpg);
+  background: url(./img/banner/b10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -419,7 +419,7 @@ a {
 }
 
 #lg-banner .cont {
-  background: url(./Aurora-Ecommerce-ٍStarter/banner/b7.jpg) center/contain;
+  background: url(./img/banner/b7.jpg) center/contain;
   height: 33vh;
   width: 26vw;
   display: flex;
@@ -430,11 +430,11 @@ a {
   flex-wrap: wrap;
 }
 #lg-banner .cont:nth-child(2) {
-  background: url(./Aurora-Ecommerce-ٍStarter/banner/b4.jpg) center/contain;
+  background: url(./img/banner/b4.jpg) center/contain;
   width: 31vw;
 }
 #lg-banner .cont:nth-child(3) {
-  background: url(./Aurora-Ecommerce-ٍStarter/banner/b17.jpg) center/contain;
+  background: url(./img/banner/b17.jpg) center/contain;
 }
 #newsletter {
   display: flex;
@@ -488,6 +488,7 @@ footer {
   display: flex;
   margin: 90px 80px;
   gap: 60px;
+  flex-wrap: wrap;
 }
 .contact img {
   padding-bottom: 30px;
@@ -498,6 +499,11 @@ footer {
 .contact .icon a {
   font-size: 17px;
   color: #61656c;
+}
+.contact .icon i:hover{
+  color: var(--accent-color); 
+  transition: color 0.6s ease;
+   
 }
 .contact h4 {
   font-size: 14px;
@@ -511,5 +517,32 @@ footer {
   font-size: 13px;
 }
 footer .install {
-  margin-left: 70px;
+  margin-left: 10px;
+}
+footer .about{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+footer .about a{
+  color: #000000;
+  font-size: 13px;
+}
+footer .account a{
+  color: #000000;
+  font-size: 13px;
+}
+footer .account{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .install .store img {
+  border: 1px solid #041e42;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer  img{ 
+  cursor: pointer;
 }
