@@ -355,7 +355,7 @@ a {
 }
 .banner-box {
   background: url(./img/img1.jpg) center/cover;
-  width: 80vw;
+  width: 42vw;
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -369,7 +369,8 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 .banner-box .bn {
   background-color: transparent;
@@ -419,7 +420,11 @@ a {
 }
 
 #lg-banner .cont {
-  background: url(./img/banner/b7.jpg) center/contain;
+  /* background: url(./img/banner/b7.jpg) center contain no-repeat; */
+  background-image: url(./img/banner/b7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 33vh;
   width: 26vw;
   display: flex;
@@ -430,14 +435,21 @@ a {
   flex-wrap: wrap;
 }
 #lg-banner .cont:nth-child(2) {
-  background: url(./img/banner/b4.jpg) center/contain;
+  background: url(./img/banner/b4.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 31vw;
 }
 #lg-banner .cont:nth-child(3) {
-  background: url(./img/banner/b17.jpg) center/contain;
+  background: url(./img/banner/b17.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #newsletter {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   background-color: #041e42;
   padding: 2em 0em;
