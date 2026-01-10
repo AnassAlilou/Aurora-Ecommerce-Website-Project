@@ -510,7 +510,7 @@ footer {
 }
 .contact .icon a {
   font-size: 17px;
-  color: #61656c;
+  color: #222;
 }
 .contact .icon i:hover{
   color: var(--accent-color); 
