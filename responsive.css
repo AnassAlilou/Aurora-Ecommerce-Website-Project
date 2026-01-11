@@ -23,7 +23,7 @@
         transition: all 0.4s ease;
     }
 
-    #navbar.active{
+    #navbar.toggle{
         right: 0px;
     }
 
