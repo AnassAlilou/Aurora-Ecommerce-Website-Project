@@ -263,7 +263,7 @@ a {
   text-align: center;
 }
 #product1 .pro-container {
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -476,6 +476,7 @@ a {
 }
 #newsletter .box p {
   color: #61656c;
+  font-size: 16px;
 }
 #newsletter form #email,
 .normal {
@@ -579,4 +580,24 @@ footer  img{
 #ba2 .container p{
   color: #fff;
   font-size: 1.1em;
+}
+#pa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pa ul{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  list-style: none;
+  gap: 3PX;
+}
+#pa ul a{
+  border: 1px solid black;
+  padding: 15px 20px;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+  background-color: #041e42;
 }
