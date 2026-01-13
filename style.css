@@ -330,6 +330,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .container h5 {
   color: white;
   font-size: 16px;
@@ -557,4 +558,25 @@ footer .install .store img {
 }
 footer  img{ 
   cursor: pointer;
+}
+/*///////////// shop page /////////////////*/
+#ba2 .container {
+  background: url(./img/banner/b1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+#ba2 .container h1{
+ color: #fff;
+}
+#ba2 .container p{
+  color: #fff;
+  font-size: 1.1em;
 }
