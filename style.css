@@ -603,3 +603,57 @@ footer  img{
   color: #fff;
   background-color: #041e42;
 }
+/*///////////// Blog page ////////////////*/
+#ba3 .container {
+  background: url(./img/banner/b19.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container{
+  padding: 30px 50px;
+}
+#ba3 .container h1{
+  color: #fff;
+  
+}
+#ba3 .container p{
+  color: #fff;
+  font-size:1.2em;
+}
+#product1 .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#product1 .content{
+  text-align: left;
+}
+.container .content a{
+  color: #000000;
+}
+#product1 .container img{
+  object-fit: cover;
+  object-position: right 30%;
+  height: 290px;
+  width:440px;
+}
+#product1 .container h1{
+  text-align: left;
+  padding: 0px 10px;
+  margin-bottom: -20px;
+  color: #bab8b9;
+  font-size: 3.8em;
+}
+#product1 .content h3{
+  color: #000000;
+  font-size: 1.3em;
+}
