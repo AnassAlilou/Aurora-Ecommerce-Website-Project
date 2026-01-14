@@ -118,6 +118,10 @@
    .copyright{
     margin-left: 190px;
    }
+   /*///////// Blog page /////// */
+   #product1 .container:nth-child(2) img{
+    object-position: right 60% top 10%; 
+   }
    
 
 }

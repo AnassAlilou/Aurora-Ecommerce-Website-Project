@@ -627,6 +627,7 @@ footer  img{
 #ba3 .container p{
   color: #fff;
   font-size:1.2em;
+  
 }
 #product1 .container{
   display: flex;
@@ -636,6 +637,11 @@ footer  img{
 }
 #product1 .content{
   text-align: left;
+  
+}
+#product1 .content p{
+  text-align: justify;
+  
 }
 .container .content a{
   color: #000000;
@@ -643,8 +649,8 @@ footer  img{
 #product1 .container img{
   object-fit: cover;
   object-position: right 30%;
-  height: 290px;
-  width:440px;
+  height: 36vh;
+  width: 35vw;
 }
 #product1 .container h1{
   text-align: left;
