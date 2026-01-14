@@ -591,7 +591,9 @@ footer  img{
   /* justify-content: center;
   align-items: center; */
   list-style: none;
-  gap: 3PX;
+  gap: 3px;
+  margin-top: 40px;
+
 }
 #pa ul a{
   border: 1px solid black;
