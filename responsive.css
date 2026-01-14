@@ -219,7 +219,26 @@
         text-align: center;
         margin-left: 7px;
     }
-
+    /*///////// Blog page /////// */
+    #product1 .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #product1 .container img{
+        height: 40vh ;
+        width: 88vw ;
+        
+    }
+    #product1 .content{
+       margin-top: -35px;
+       margin-bottom: 10px;
+       width: 90vw;
+       text-align: left;
+    }
+    #pa ul{
+    margin-top: 0px;
+    }
 }
     
 
