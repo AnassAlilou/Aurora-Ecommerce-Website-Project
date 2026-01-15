@@ -122,7 +122,25 @@
    #product1 .container:nth-child(2) img{
     object-position: right 60% top 10%; 
    }
-   
+   /*///////// about page /////// */
+    #product2 .container img{
+    height: 30vh;
+    width: 45vw;
+    }
+    #product2 .about-hero-p{
+    text-align: left;
+    width: 100%;
+    }
+    #product2 .container{
+        padding: 40px 0px;
+    }
+    #product2 .d-video video{
+        width: 74vw;
+        height: 44vh;
+    }
+    #product2 .about-hero-p p{
+    text-align: justify;
+    }
 
 }
 
@@ -239,6 +257,9 @@
     #pa ul{
     margin-top: 0px;
     }
+    
+
+
 }
     
 
