@@ -257,7 +257,36 @@
     #pa ul{
     margin-top: 0px;
     }
-    
+    /*///////// about page /////// */
+    #product2 .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #product2 .container img{
+        width: 90vw;
+        height: 38vh;
+    }
+    #ba4 .container p{
+    color: #fff;
+    font-size:1.2em;
+    text-align: center;
+    width: 100vw;
+    line-height: 33px;
+    }
+    #product2 .d-video h1{
+        text-align: center;
+        width: 90vw;
+        font-size: 40px;
+        margin-top: -30px;
+    }
+    #product2 .d-video video{
+        height: 37vh;
+    }
+    #product2 .about-hero-p h1{
+        font-size: 2.1em;
+    }
+
 
 
 }
