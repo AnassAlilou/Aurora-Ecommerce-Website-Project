@@ -183,8 +183,7 @@ a {
   color: var(--accent-color);
 }
 /* #img-slider .slide .info button{
-    background: url(./drive-download-20251216T191429Z-1-001/button\ \(1\).png);
-    background-color: transparent;
+   
     color: var(--primary-color);
     border: 0;
     padding: 14px 80px 14px 65px;
@@ -663,3 +662,58 @@ footer  img{
   color: #000000;
   font-size: 1.3em;
 }
+/*///////////// about page ////////////////*/
+#ba4 .container {
+  background: url(./img/about/banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+#ba4 .container h1{
+  color: #fff;
+  
+}
+#ba4 .container p{
+  color: #fff;
+  font-size:1.2em;
+  
+}
+#product2 .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
+}
+#product2 .container img{
+  height: 70vh;
+  width: 40vw;
+}
+#product2 .about-hero-p{
+  text-align: justify;
+}
+#product2 .d-video video{
+  height: 95vh;
+  width: 60vw;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+#product2 .d-video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  margin: 10px 0px;
+}
+#product2 .d-video h1{
+  padding: 30px 0px;
+}
+
