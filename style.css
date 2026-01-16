@@ -715,4 +715,41 @@ footer  img{
 #product2 .d-video h1{
   padding: 30px 0px;
 }
+/*///////////// about page ////////////////*/
+#product3{
+  padding: 40px 35px;
+}
+#product3 .container{
+  display: flex;
+}
+#product3 .container iframe{
+  height:70vh ;
+  width: 45vw;
+  border-radius: 4px;
+}
+#product3 .intouch h3{
+  color: #000000;
+}
+#product3 .container i {
+  padding-right: 33px;
+}
+#product3 .intouch h2{
+  padding: 10px 0px;
+  font-size: 1.6em;
+}
+#product3 .intouch h3{
+  font-size: 1.3em;
+  
+}
+#product3 .intouch p,i{
+  font-size: 1em;
+}
+#about-form .form-info{
+  display: flex;
+  flex-direction: column;
+}
+#fieldset {
+  display: flex;
+}
+
 
