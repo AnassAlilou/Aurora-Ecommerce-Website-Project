@@ -715,7 +715,7 @@ footer  img{
 #product2 .d-video h1{
   padding: 30px 0px;
 }
-/*///////////// about page ////////////////*/
+/*///////////// contact page ////////////////*/
 #product3{
   padding: 40px 35px;
 }
@@ -744,12 +744,61 @@ footer  img{
 #product3 .intouch p,i{
   font-size: 1em;
 }
-#about-form .form-info{
-  display: flex;
-  flex-direction: column;
+
+fieldset{
+  display:flex;
+  justify-content:center;
+  margin:10px 30px;
+  padding: 50px 0px;
 }
-#fieldset {
+fieldset .form-info{
+  width:60%;
+  
+}
+fieldset .satff-grp{
+  width:40%;
+}
+.staff .staff-info{
+  line-height: 0.4;
+  
+}
+.staff .staff-info p{
+  color: #6c757d;
+}
+.staff .staff-info p:nth-child(2){
+  margin-top: 22px;
+}
+#contact-form .staff img {
+  height:63px; 
+  width:63px;
+  display: inline-block;
+}
+#contact-form .staff-grp .staff{
   display: flex;
+  gap: 13px;
+  margin-bottom: 30px;
+ 
+}
+#contact-form .staff-grp{
+  margin-top: 70px;
+}
+#contact-form .form-info input,
+#contact-form .form-info textarea{
+  width: 80%;
+  height: 39px;
+  margin: 11px 0px;
+  padding: 0 10px;
+  border:1px solid rgb(222, 219, 219);
+  outline: none;
+}
+#contact-form .form-info textarea{
+  height: 150px;
+  padding: 10px;
+  
+}
+#contact-form .form-info button{
+  padding: 10px 25px;
+  
 }
 
 
