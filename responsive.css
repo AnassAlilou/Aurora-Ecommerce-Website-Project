@@ -141,11 +141,25 @@
     #product2 .about-hero-p p{
     text-align: justify;
     }
+    /*///////// contact page /////// */
+    #product3 .container iframe{
+        height:400px;
+    }
+    #product3 .container{
+        padding: 10px 15px;
+    }
+    #contact-form fieldset{
+        padding: 30px 60px;
+    }
+    #contact-form .staff{
+       margin-right: -40px;
+        
+    }
 
 }
 
 /* Mobile */
-@media screen and (max-width: 477px){
+@media screen and (max-width: 480px){
     #Header{
         padding: 10px 30px;
     }
@@ -286,6 +300,33 @@
     #product2 .about-hero-p h1{
         font-size: 2.1em;
     }
+    /*///////// contact page /////// */
+    #product3 .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #product3 .container iframe{
+        width: 400px;
+        margin-top: 25px;
+    }
+    #contact-form fieldset {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px;
+        margin: 0 10px;
+       
+    }
+    #contact-form .form-info input,
+    #contact-form .form-info textarea{
+        width:90vw;
+    }
+    #contact-form .staff-grp{
+        margin-left: 10px;
+    }
+
+
+
 
 
 
